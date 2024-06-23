@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header styling */
+header {
+    background-color: #8bc34a; /* Light green background color */
+    color: #ffffff; /* Text color for the header */
+    padding: 15px 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #8bc34a; /* Light green background color */
+    color: #ffffff; /* Text color for the footer */
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Navbar link text color */
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0; /* Navbar link text color on hover */
+}
+
+/* Social links in footer */
+.social-links a {
+    font-size: 20px;
+    color: #ffffff; /* Social link color */
+}
+
+.social-links a:hover {
+    color: #f0f0f0; /* Social link color on hover */
+}
+
+.hero-section {
+    background: url('images/Laundry-room-with-wallpaper-effect-facebook.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; /* Text color for the hero section */
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.service-box,
+.testimonial-box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-box:hover,
+.testimonial-box:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #8bc34a; /* Light green background color */
+    color: #ffffff; /* Text color for the footer */
+}
+
+/* Additional CSS for Social Links */
+.social-links a {
+    font-size: 20px;
+    color: #ffffff;
+}
